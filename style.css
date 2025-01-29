@@ -9,15 +9,24 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 24px;
+  gap: 40px;
   background-color: #f5f5f7;
   height: 44px;
 }
+.apple_button {
+  width: 12px;
+  height: 16px;
+}
 .navigation {
   display: flex;
-  gap: 24px;
+  gap: 30px;
   font-weight: 300;
-  font-size: 16px;
+  font-size: 12px;
+}
+.nav_link {
+  text-decoration: none;
+  color: black;
+  cursor: pointer;
 }
 
 .menu_button {
@@ -36,18 +45,72 @@
     margin-left: auto;
   }
 }
+
 .header_title {
   font-weight: 300;
-  font-size: 19px;
+  font-size: 16px;
   height: 70px;
   display: flex;
   align-items: center;
   justify-content: center;
 }
 .home_image {
-  background-image: url(./logos/Figure.png);
+  width: 100vw;
+  height: 850px;
+  background-position: center;
+  background-size: cover;
+  background-repeat: repeat;
+}
+.second_home_image {
+  background-image: url(./logos/blue\ iphone.png);
+  margin-top: 20px;
   height: 1000px;
   background-position: center;
   background-size: cover;
   background-repeat: repeat;
+}
+.gift_magic_image {
+  background-image: url(./logos/apple\ logo\ hamilion.png);
+  margin-top: 20px;
+  height: 1000px;
+  background-position: center;
+  background-size: cover;
+  background-repeat: repeat;
+}
+.home_img_title {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  top: 80px;
+}
+
+.home_img_buttons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+}
+
+.learn_more_button {
+  color: white;
+  background-color: #0071e3;
+  width: 180px;
+  height: 60px;
+  font-weight: 300;
+  font-size: 23px;
+  border-radius: 40px;
+  border: none;
+  cursor: pointer;
+}
+
+.buy_button {
+  color: #0071e3;
+  background-color: transparent;
+  width: 90px;
+  height: 60px;
+  font-weight: 300;
+  font-size: 23px;
+  border-radius: 40px;
+  border: solid #0071e3;
+  cursor: pointer;
 }
