@@ -1,7 +1,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Hanuman:wght@100;300;400;700;900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+
 * {
-  margin: 0;
-  padding: 0;
+  margin: 0%;
+  padding: 0%;
   box-sizing: border-box;
   font-family: "Inter", serif;
 }
@@ -13,6 +14,7 @@
   background-color: #f5f5f7;
   height: 44px;
 }
+
 .apple_button {
   width: 12px;
   height: 16px;
@@ -54,34 +56,33 @@
   align-items: center;
   justify-content: center;
 }
-.home_image {
+.iphone16pro {
+  background-image: url(./logos/Figure.png);
   width: 100vw;
   height: 850px;
   background-position: center;
   background-size: cover;
   background-repeat: repeat;
 }
-.second_home_image {
-  background-image: url(./logos/blue\ iphone.png);
-  margin-top: 20px;
-  height: 1000px;
-  background-position: center;
-  background-size: cover;
-  background-repeat: repeat;
+
+.home_img_titles {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  padding: 50px;
 }
-.gift_magic_image {
-  background-image: url(./logos/apple\ logo\ hamilion.png);
-  margin-top: 20px;
-  height: 1000px;
-  background-position: center;
-  background-size: cover;
-  background-repeat: repeat;
-}
-.home_img_title {
+.home_img_main_title {
+  color: white;
+  font-size: 80px;
   display: flex;
   justify-content: center;
-  position: relative;
-  top: 80px;
+  align-items: center;
+}
+.home_img_second_title {
+  color: white;
+  font-size: 40px;
+  display: flex;
+  justify-content: center;
 }
 
 .home_img_buttons {
@@ -113,4 +114,113 @@
   border-radius: 40px;
   border: solid #0071e3;
   cursor: pointer;
+}
+
+@media screen (max-width: 1024px) {
+  .iphone16pro {
+    width: 100%;
+  }
+}
+
+.iphone16 {
+  background-image: url(./logos/blue\ iphone.png);
+  margin-top: 20px;
+  width: 100vw;
+  height: 850px;
+  background-position: center;
+  background-size: cover;
+  background-repeat: repeat;
+}
+
+.iphone16_titles {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  padding: 50px;
+}
+.iphone16_main_title {
+  color: white;
+  font-size: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.iphone16_second_title {
+  color: white;
+  font-size: 40px;
+  display: flex;
+  justify-content: center;
+}
+
+.iphone16_buttons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+}
+
+.iphone16_learn_more_button {
+  background-color: white;
+  width: 180px;
+  height: 60px;
+  font-weight: 300;
+  font-size: 23px;
+  border-radius: 40px;
+  border: none;
+  cursor: pointer;
+}
+
+.iphone16_buy_button {
+  color: white;
+  background-color: transparent;
+  width: 90px;
+  height: 60px;
+  font-weight: 300;
+  font-size: 23px;
+  border-radius: 40px;
+  border: solid white;
+  cursor: pointer;
+}
+
+.gift_magic {
+  background-image: url(./logos/apple\ logo\ hamilion.png);
+  margin-top: 20px;
+  height: 1000px;
+  width: 100vw;
+  background-position: center;
+  background-size: cover;
+  background-repeat: repeat;
+}
+
+.gift_magic_main_title {
+  color: black;
+  font-size: 80px;
+  font-weight: 600;
+}
+
+.gift_magic_second_title {
+  color: black;
+  font-size: 40px;
+  font-weight: 400;
+}
+
+.shop_gifts_button {
+  color: white;
+  background-color: #0071e3;
+  width: 180px;
+  height: 60px;
+  font-weight: 300;
+  font-size: 23px;
+  border-radius: 40px;
+  border: none;
+  cursor: pointer;
+}
+
+.gift_magic_titles {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  padding: 630px;
 }
