@@ -6,6 +6,7 @@
   box-sizing: border-box;
   font-family: "Inter", serif;
 }
+
 .header {
   display: flex;
   justify-content: center;
@@ -36,18 +37,6 @@
   display: none;
 }
 
-@media only screen and (max-width: 1024px) {
-  .navigation {
-    display: none;
-  }
-  .menu_button {
-    display: block;
-  }
-  .search_button {
-    margin-left: auto;
-  }
-}
-
 .header_title {
   font-weight: 300;
   font-size: 16px;
@@ -59,28 +48,28 @@
 .iphone16pro {
   background-image: url(./logos/Figure.png);
   width: 100vw;
-  height: 850px;
+  height: 692px;
   background-position: center;
   background-size: cover;
-  background-repeat: repeat;
+  background-repeat: no-repeat;
 }
 
 .home_img_titles {
   display: flex;
   flex-direction: column;
-  gap: 30px;
-  padding: 50px;
+  gap: 20px;
+  padding: 30px;
 }
 .home_img_main_title {
   color: white;
-  font-size: 80px;
+  font-size: 60px;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 .home_img_second_title {
   color: white;
-  font-size: 40px;
+  font-size: 30px;
   display: flex;
   justify-content: center;
 }
@@ -116,20 +105,14 @@
   cursor: pointer;
 }
 
-@media screen (max-width: 1024px) {
-  .iphone16pro {
-    width: 100%;
-  }
-}
-
 .iphone16 {
   background-image: url(./logos/blue\ iphone.png);
   margin-top: 20px;
   width: 100vw;
-  height: 850px;
+  height: 692px;
   background-position: center;
   background-size: cover;
-  background-repeat: repeat;
+  background-repeat: no-repeat;
 }
 
 .iphone16_titles {
@@ -223,4 +206,77 @@
   align-items: center;
   gap: 30px;
   padding: 630px;
+}
+
+@media only screen and (max-width: 1024px) {
+  .navigation {
+    display: none;
+  }
+  .menu_button {
+    display: block;
+  }
+  .search_button {
+    margin-left: auto;
+  }
+  .header_title {
+    margin-inline: 20px;
+  }
+
+  .iphone16pro {
+    background-image: url("./logos/tablet-16pro.png");
+    height: 650px;
+  }
+  .home_img_titles {
+    padding: 55px;
+  }
+  .home_img_main_title {
+    font-size: 50px;
+  }
+  .home_img_second_title {
+    font-size: 25px;
+  }
+  .iphone16 {
+    background-image: url("./logos/tablet\ blue.png");
+  }
+
+  .gift_magic {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 430px) {
+  .iphone16pro {
+    background-image: url("./logos/16\ pro\ small\ phone.png");
+  }
+
+  .home_img_main_title {
+    font-size: 35px;
+  }
+
+  .home_img_second_title {
+    font-size: 20px;
+  }
+
+  .learn_more_button {
+    width: 130px;
+    height: 40px;
+    font-size: 17px;
+  }
+
+  .buy_button {
+    width: 80px;
+    height: 40px;
+    font-size: 17px;
+  }
+  .home_img_titles {
+    position: relative;
+    top: 60%;
+  }
+
+  .header_title {
+    margin-inline: 20px;
+  }
+  .gift_magic {
+    display: none;
+  }
 }
