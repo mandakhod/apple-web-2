@@ -236,7 +236,7 @@
   font-weight: 300;
 }
 
-.product-1_learn_more_button {
+.products_learn_more_button {
   color: white;
   background-color: #0071e3;
   width: 110px;
@@ -247,7 +247,7 @@
   border: none;
   cursor: pointer;
 }
-.product-1_buy_button {
+.products_buy_button {
   color: #0071e3;
   background-color: transparent;
   width: 70px;
@@ -270,23 +270,67 @@
 }
 .product-3 {
   background-image: url("./logos/iwatch\ desktop.png");
-  display: flex;
-  justify-content: center;
-  padding: 80px;
 }
 .apple_logo {
-  position: absolute;
+  width: 27px;
+  height: 32px;
+  position: relative;
+  left: 415px;
+  top: 70px;
+}
+.product-3_main_title {
+  position: relative;
   left: 450px;
+  top: 40px;
+}
+.product-3_second_title {
+  position: relative;
+  left: 430px;
+  top: 50px;
+}
+.product-3_buttons {
+  position: relative;
+  left: 390px;
+  top: 70px;
 }
 .product-4 {
   background-image: url("./logos/macbook\ desktop.png");
 }
+.product-4_titles {
+  position: relative;
+  left: 440px;
+  top: 40px;
+}
+.product-4_buttons {
+  position: relative;
+  left: 420px;
+  top: 70px;
+}
 .product-5 {
-  background-image: url("./logos/Trade\ in\ desktop.png");
+  background-image: url("./logos/trade\ in\ desktop.png");
+}
+.product-5 img {
+  width: 27px;
+  height: 32px;
+  position: relative;
+  left: 415px;
+  top: 70px;
+}
+.product-5 h2 {
+  position: relative;
+  left: 450px;
+  top: 40px;
+}
+.product-5 p {
+  position: relative;
+  left: 350px;
+  top: 50px;
+  overflow-wrap: break-word;
 }
 .product-6 {
   background-image: url("./logos/Card\ desktop.png");
 }
+
 @media only screen and (max-width: 1024px) {
   .navigation {
     display: none;
